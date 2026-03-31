@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #1B244A;
+    height: 300px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 40px;
+    width: 130px;
+}
+
+.h-score, .a-score {
+    font-family: 'Cursed Timer ULiL';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 130px;
+    height: 100px;
+    color: #F94F6D;
+    font-size: 90px;
+    border-radius: 7px;
+}
+
+
+.h-buttons, .a-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    gap: 10px
+}
+
+#hplus1, #hplus2, #hplus3, #aplus1, #aplus2, #aplus3{
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: .5px solid #9AABD8;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.period{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+
+h4{
+    margin-bottom: 7px;
+}
+
+#period{
+    font-family: 'Cursed Timer ULiL';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F94F6D;
+    font-size: 40px;
+    margin-top: 0px;
+    background-color: black;
+    height: 60px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+.p-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    gap: 10px;
+}
+
+#pplus1, #pminus1{
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: .5px solid #9AABD8;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    margin-top: -40px;
+}
+
+#new-game{
+    display: flex;
+    background-color: red;
+    color: darkred;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    margin-top: -50px;
+    border-color: red;
+}

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                <h3>HOME</h3>
+                <div class="h-score">
+                    <p id="homescore">0<p>
+                </div>
+                <div class="h-buttons">
+                    <button id="hplus1" onclick="hplus1()">+1</button>
+                    <button id="hplus2" onclick="hplus2()">+2</button>
+                    <button id="hplus3" onclick="hplus3()">+3</button>
+                </div>
+            </div>
+            
+            
+            <div class="period">
+                <h4>PERIOD</h4>
+                <p id="period">1</p>
+                <div class="p-buttons">
+                    <button id="pplus1" onclick="pplus1()">+</button>
+                    <button id="pminus1" onclick="pminus1()">-</button>
+                </div>
+            </div>
+            <div class="team">
+                <h3>GUEST</h3>
+                <div class="a-score">
+                    <p id="awayscore">0<p>
+                </div>
+                <div class="a-buttons">
+                    <button id="aplus1" onclick="aplus1()">+1</button>
+                    <button id="aplus2" onclick="aplus2()">+2</button>
+                    <button id="aplus3" onclick="aplus3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="new-game" onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
